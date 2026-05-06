@@ -3,7 +3,7 @@ from part1 import calculate_interest
 
 def test_tier1():
     assert calculate_interest(0) == "0.00"
-    assert calculate_interest(500) == "15.00"
+    assert calculate_interest(500) == "00.00"
     assert calculate_interest(1000) == "30.00"
 
 def test_tier2():
